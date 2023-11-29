@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:icon="@drawable/ic_outline_home_24"
+        android:title="Home"/>
+    <item android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Profile"/>
+
+
+    <item android:id="@+id/group"
+        android:title="Labels"
+        >
+        <menu>
+            <item android:title="Email"
+                android:icon="@drawable/ic_outline_email_24"/>
+        <item android:title="Home"
+            android:icon="@drawable/ic_outline_email_24"/>
+            <item android:title="Transport"
+                android:icon="@drawable/ic_outline_directions_bus_24"/>
+        </menu>
+    </item>
+
+</menu>
